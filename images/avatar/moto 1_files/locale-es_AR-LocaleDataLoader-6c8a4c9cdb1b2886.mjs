@@ -1,0 +1,2 @@
+(self.modernJsonp=self.modernJsonp||[]).push([[17544,16205],{971273:(r,n,e)=>{"use strict";e.r(n),e.d(n,{default:()=>t});var s=e(310208),o=e.n(s);function t({children:r}){return r(o())}},310208:(r,n,e)=>{var s="";r.exports={locale:"es-AR",i18nStrings:void 0,plural:e(53120)}},53120:r=>{r.exports=function(r){return 1!=+r}}}]);
+//# sourceMappingURL=https://sm.pinimg.com/webapp/locale-es_AR-LocaleDataLoader-6c8a4c9cdb1b2886.mjs.map
