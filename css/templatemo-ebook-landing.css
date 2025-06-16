@@ -18,7 +18,7 @@ https://templatemo.com/tm-588-ebook-landing
   --custom-btn-bg-hover-color:    #b051e7;
   --dark-color:                   #b9abab;
   --p-color:                      #717275;
-  --link-hover-color:             #E76F51;
+  --link-hover-color:             #4A90E2;
 
   --body-font-family:             'Unbounded', sans-serif;
 
@@ -148,29 +148,69 @@ strong {
 /*---------------------------------------
   AVATAR IMAGE               
 -----------------------------------------*/
+.motos-horizontales {
+  background-color: var(--custom-btn-bg-color);
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.moto-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.mensaje-motos {
+  text-align: left;
+  color: #b948e6;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
 .avatar-image {
-  border: 4px solid var(--white-color);
-  border-radius: 100px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
   object-fit: cover;
+  border: 4px solid rgb(15, 15, 15);
+  transition: transform 0.3s ease;
+}
+
+.avatar-image:hover {
+  transform: scale(1.1);
+}
+
+.moto-nombre {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  margin-top: 5px;
 }
 
 .avatar-image-left {
   position: relative;
-  left: -10px;
+  left: -20px;
+  z-index: 1;
+
 }
 
 .avatar-image-left + .avatar-image-left {
-  left: -20px;
+  left: -40px;
+  z-index: 2;
 }
 
 .avatar-image-left + .avatar-image-left + .avatar-image-left {
-  left: -30px;
+  left: -60px;
+  z-index: 3;
 }
 
 .avatar-image-left + .avatar-image-left + .avatar-image-left + .avatar-image-left {
-  left: -40px;
+  left: -80px;
+  z-index: 4;
 }
 
 .avatar-group,
@@ -413,7 +453,7 @@ strong {
 }
 
 .sticky-wrapper.is-sticky .navbar {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(2, 2, 2, 0.85);
 }
 
 .navbar {
@@ -622,7 +662,7 @@ strong {
   CUSTOM BLOCK              
 -----------------------------------------*/
 .custom-block {
-  background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
+  background-image: url('../images/casco.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -657,7 +697,7 @@ strong {
 }
 
 .custom-block-image-wrap {
-  background-color: rgba(231, 111, 81, 0.85);
+  background-color: rgba(231, 81, 81, 0.85);
   border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);
   position: relative;
   z-index: 2;
@@ -1060,7 +1100,7 @@ strong {
     padding: 10px;
     box-shadow: 0 8px 20px rgba(82, 21, 97, 0.2);
     border-radius: 8px;
-    background-color: #6b1b6a;
+    background-color: #dd08da;
     overflow: hidden;
     
 }
